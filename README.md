@@ -1,6 +1,6 @@
-# Triton Kernel Misadventures: L2 Norm Edition
+# Triton Kernel Misadventures
 
-A comprehensive educational journey through the challenges and solutions of implementing GPU-accelerated Euclidean norm (`nrm2`) calculations using **Triton kernels**. This notebook demonstrates common pitfalls in parallel GPU programming and provides practical solutions for achieving numerical correctness.
+A comprehensive educational resource highlighting the challenges and solutions of developing **Triton kernels**. This collection of notebooks demonstrates common pitfalls in parallel GPU programming and provides practical solutions for achieving efficiency and numerical correctness.
 
 ## Misadventures
 1. **Single-Kernel Global Sum**: Using `tl.sum()` incorrectly for global reductions
